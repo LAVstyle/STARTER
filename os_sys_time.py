@@ -8,3 +8,6 @@ def start_file(path):
 def start_web_site(name):
     os.system(f"start https://calendar.google.com/calendar/u/0/r")
     time.sleep(1)
+
+start_file()
+start_web_site()
