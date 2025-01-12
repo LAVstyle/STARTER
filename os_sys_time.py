@@ -1,13 +1,7 @@
 import os
 import time
 
-def start_file(path):
-    os.startfile(f"C:\Users\AVL\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code")
-    time.sleep(1)
-
-def start_web_site(name):
-    os.system(f"start https://calendar.google.com/calendar/u/0/r")
-    time.sleep(1)
-
-start_file()
-start_web_site()
+os.system("start https://calendar.google.com/calendar/u/0/r")
+time.sleep(2)
+os.startfile("C:\\Users\\AVL\\AppData\Local\\Programs\\Microsoft VS Code\\Code.exe")
+time.sleep(2)
